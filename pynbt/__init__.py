@@ -13,3 +13,5 @@ from pynbt.nbt import (
     TAG_Compound,
     TAG_Int_Array
 )
+
+from pynbt.model import NBTModel

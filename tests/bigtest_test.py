@@ -73,7 +73,7 @@ class BigTest(unittest.TestCase):
         self.assertTrue(len(nbt) == 11)
 
         # Test 3 tag types, and deep compounds.
-        tag = nbt['listTest (compound)'].value[0]['created-on']
+        tag = nbt['listTest (compound)'][0]['created-on']
         self.assertTrue(tag.value == 1264099775885)
 
 if __name__ == '__main__':
