@@ -76,6 +76,9 @@ with open('out.nbt', 'rb') as io:
 These changelogs are summaries only and not comprehensive. See
 the commit history between tags for full changes.
 
+### v1.4.1
+- Added support for `TAG_Long_Array`
+
 ### v1.4.0
 - **Removed** pocket detection helpers and ``RegionFile``, leaving PyNBT to **only** handle NBT.
 - Added a simple unicode test.
@@ -94,8 +97,8 @@ the commit history between tags for full changes.
 
 ### v1.2.
 
-- TAG_List's values no longer need to be ``TAG_*`` objects. They
-  will be converted when the tag is saved. This allows much  easier lists of
+- `TAG_List`'s values no longer need to be ``TAG_*`` objects. They
+  will be converted when the tag is saved. This allows much easier lists of
   native types.
 
 ### v1.2.0
@@ -103,7 +106,7 @@ the commit history between tags for full changes.
 - Internal code cleanup. Breaks compatibility with pocket loading
   and saving (to be reimplemented as helpers).
 - Slight speed improvements.
-- TAG_List can now be treated as a plain python list (`.value` points to `self`)
+- `TAG_List` can now be treated as a plain python list (`.value` points to `self`)
 
 ### v1.1.0
 

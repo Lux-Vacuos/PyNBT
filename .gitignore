@@ -7,3 +7,5 @@ __test__.nbt
 *.egg-info
 .ropeproject
 .DS_Store
+/.project
+/.pydevproject

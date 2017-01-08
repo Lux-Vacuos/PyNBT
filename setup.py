@@ -7,11 +7,11 @@ except ImportError:
 
 setup(
     name='PyNBT',
-    version='1.3.3',
-    description='Tiny, liberally-licensed NBT library (Minecraft).',
+    version='1.4.1',
+    description='Tiny, liberally-licensed NBT library (Minecraft and Voxel).',
     author='Tyler Kennedy',
     author_email='tk@tkte.ch',
-    url='https://github.com/TkTech/PyNBT',
+    url='https://github.com/Lux-Vacuos/PyNBT',
     packages=[
         'pynbt'
     ],
